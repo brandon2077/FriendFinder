@@ -14,38 +14,29 @@
 		<div class="jumbotron">
 			<h1 class="text-center"><span class="foo foo-head"></span>Friend Finder</h1>
 			<hr>
-			<h2 class="text-center">Answer the Questions!</h2>
+			<h2 class="text-center">View your friends!</h2>
 			<br>
 
 			<div class="text-center">
-				<a href="/friends"><button class="btn btn-lg btn-primary"><span class="foo foo-friendslist"></span>View Friends</button></a>
+				<a href="/survey"><button class="btn btn-lg btn-danger"><span class="foo foo-survey"></span>View Friends</button></a>
 				<a href="/"><button class="btn btn-lg btn-default"><span class="foo foo-home"></span></button></a>
 
 			</div>
 		</div>
-
+		
 		<div class="row">
 			<div class="col-lg-12">
-			
-				<!-- Survey Page -->
+		<!-- Current Friends/Matches -->
 				<div class="panel panel-default">
 					<div class="panel-heading">
-						<h4 class="panel-title">Friend Match</h4>
+						<h4 class="panel-title">Matches</h4>	
 					</div>
-					<div class="panel-body">
-						<form> 
-							<div class="form-group">
-								<label for=""></label>
-								<input type="">
-							</div>
-
-							<button type="submit" class="btn btn-primary submit">Submit</button>
-						</form>
+					<div class="panel-body" id="friendlistSection">
 					</div>
 				</div>
 			</div>
-		
 		</div>
+
 		<footer class="footer">
 			<div class="container">
 				<p><a href="/api/friends">API Friends Link</a> | <a href="https://github.com/brandonao/FriendFinder">GitHub Repo</a></p>

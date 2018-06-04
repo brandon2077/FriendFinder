@@ -1,10 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 	<meta charset="UTF-8">
-	<title></title>
+	<title>Friend Finder Home</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
 <body>
-	
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="text-center"><span class="foo foo-head"></span>Friend Finder</h1>
+			<hr>
+			<h2 class="text-center">Find your match!</h2>
+			<br>
+
+			<div class="text-center">
+				<a href="/friends"><button class="btn btn-lg btn-primary"><span class="foo foo-friendslist"></span>View Friends</button></a>
+				<a href="/survey"><button class="btn btn-lg btn-danger"><span class="foo foo-survey"></span>Find Matches</button></a>
+
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<p><a href="/api/friends">API Friends Link</a> | <a href="https://github.com/brandonao/FriendFinder">GitHub Repo</a></p>
+			</div>
+		</footer>
+	</div>
 </body>
 </html>
