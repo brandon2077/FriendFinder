@@ -11,10 +11,6 @@ module.exports = function(app) {
 	// This code handles when a user "visits" a page.
 	// ex. localhost:PORT/survey will show the HTML content from survey.html
 
-	// app.get("/matches", function(req, res) {
-		// res.sendFile(path.join(__dirname, "../public/matches.html"));
-	// });
-
 	app.get("/survey", function(req, res) {
 		res.sendFile(path.join(__dirname, "../public/survey.html"));
 	});

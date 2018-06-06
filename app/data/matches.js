@@ -3,56 +3,56 @@
 
 var matchArray = [
 	{
-		name: "Timothy",
-		photo: "https://carbunkletrumpet.files.wordpress.com/2018/03/random-pictures-that-make-no-sense-18-1.jpg",
+		name: "Lara",
+		photo: "https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-658824.png",
 		scores: [
 			5, 
-			1, 
 			4, 
-			4, 
-			5,
+			3, 
+			2, 
+			1,
 			1,
 			2,
-			5, 
+			3, 
 			4, 
+			5
+		]
+	},
+	{
+		name: "Tifa",
+		photo: "https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-654707.jpg",
+		scores: [
+			1, 
+			2, 
+			1, 
+			2, 
+			1,
+			2,
+			1,
+			2, 
+			1, 
+			2
+		]
+	},
+	{
+		name: "Geralt",
+		photo: "https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-424857.jpg",
+		scores: [
+			1, 
+			2, 
+			3, 
+			4, 
+			5,
+			5,
+			4,
+			3, 
+			2, 
 			1
 		]
 	},
 	{
-		name: "Jeannine",
-		photo: "http://kb4images.com/images/random-image/37670495-random-image.jpg",
-		scores: [
-			1, 
-			2, 
-			1, 
-			2, 
-			1,
-			2,
-			1,
-			2, 
-			1, 
-			2
-		]
-	},
-	{
-		name: "Luis",
-		photo: "http://kb4images.com/images/random-image/37656359-random-image.jpg",
-		scores: [
-			5, 
-			4, 
-			3, 
-			2, 
-			1,
-			2,
-			3,
-			4, 
-			5, 
-			2
-		]
-	},
-	{
-		name: "Victoria",
-		photo: "http://kb4images.com/images/beautiful-girls-image/36497240-beautiful-girls-image.jpg",
+		name: "Lilith",
+		photo: "https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-629830.jpg",
 		scores: [
 			3, 
 			5, 
@@ -67,19 +67,19 @@ var matchArray = [
 		]
 	},
 	{
-		name: "Earl",
-		photo: "http://efekt-dieta.info/cdn/images/random-picture/random-picture-19.jpg",
+		name: "Triss",
+		photo: "https://wallpapers.wallhaven.cc/wallpapers/full/wallhaven-642089.jpg",
 		scores: [
+			1, 
 			2, 
+			3, 
 			1, 
-			4, 
-			1, 
-			5,
-			4,
 			2,
+			3,
+			1,
 			2, 
-			2, 
-			5
+			3, 
+			1
 		]
 	}
 
