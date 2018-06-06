@@ -4,7 +4,7 @@
   "description": "Welcome to the Virtual Friend Finder",
   "main": "server.js",
   "engines": {
-    "node": "8.11.2"
+    "node": "8.11.2",
     "npm": "6.1.0"
   },
   "dependencies": {
